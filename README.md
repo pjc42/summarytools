@@ -19,9 +19,6 @@ Version 0.6.5 is now on CRAN, fixing several issues present in version 0.6. See 
 
 It also aims at making R _a little easier_ to use for newcomers. With just a few lines of code, one can get a pretty good picture of the data at hand.
 
-## Weighted statistics
-Newer versions (0.5 and above) support weights for freq() and descr(). Use `devtools::install_github()` to get the latest version (see **How to install** for detailed instructions).
-
 ### An example
 
 With just 2 lines of code, get a summary report of a dataframe, displayed directly in [_RStudio_](http://www.rstudio.com/)'s Viewer pane:
@@ -198,7 +195,6 @@ Species         type:integer  1. setosa                         1: 46 (33.6%)   
 ----------------------------------------------------------------------------------------------
 ```
 
-
 # All functions markdown-ready
 
 Thanks to Gergely Daróczi's [pander](https://github.com/Rapporter/pander) package, all functions can printout [markdown](http://daringfireball.net/projects/markdown/); just use the option `style="rmarkdown"`. That is useful for instance here on GitHub, where `.md` files are converted and displayed as _html_. Thanks to John MacFarlane's [Pandoc](http://johnmacfarlane.net/pandoc/), you can further convert markdown text files into a wide range of common formats such as _.pdf_, _.docx_ and _.odt_, among others. 
@@ -306,6 +302,9 @@ When displaying **summarytools** objects in the console (as opposed to generatin
 - `...` and any of the other [pander options](https://github.com/Rapporter/pander#pander-options)
 
 ## What else?
+
+### Weighted statistics
+Versions 0.5 and above support weights for `freq()` and `descr()`. 
 
 ### Function what.is() helps you figure out quickly what an object is by...
 
