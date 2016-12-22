@@ -5,9 +5,11 @@ Other stats: [![Research software impact](http://depsy.org/api/person/338759/bad
 
 ## News
 
+Version 0.6.5 is now on CRAN, fixing several issues present in version 0.6. See README file for more details. The new version includes a vignette which complements the introduction on this page. You can find the vignette here: http://rpubs.com/dcomtois/summarytools_vignette
+
 Version 0.6.9 [in development](https://github.com/dcomtois/summarytools/tree/dev) adds a new cross-tabulation function, `ctable()`.  Also, the variables are now correctly labelled when using with() and/or by(). It's a work-in-progress, and feedback is most welcome. To try it out, use `devtools::install_github("dcomtois/summarytools", ref="dev")`. 
 
-Version 0.6.5 is now on CRAN, fixing several issues present in version 0.6. See README file for more details. The new version includes a vignette which complements the introduction on this page. You can find the vignette here: http://rpubs.com/dcomtois/summarytools_vignette
+_Other features soon to come:_ ability to combine into a single html report the results of as many tables as wanted, including results nested in "by" objects.
 
 ## What is summarytools?
 
