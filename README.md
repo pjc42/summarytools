@@ -3,9 +3,13 @@
 CRAN stats: [![](http://cranlogs.r-pkg.org/badges/summarytools)](http://cran.rstudio.com/web/packages/summarytools/index.html) [![](http://cranlogs.r-pkg.org/badges/grand-total/summarytools)](http://cran.rstudio.com/web/packages/summarytools/index.html)  
 Other stats: [![Research software impact](http://depsy.org/api/person/338759/badge.svg)](http://depsy.org/person/338759)
 
-NEWS: Version 0.6.9 [in development](https://github.com/dcomtois/summarytools/tree/dev) adds a new cross-tabulation function, `ctable()`.  Also, the variables are now correctly labelled when using with() and/or by(). It's a work-in-progress, and feedback is most welcome. To try it out, use `devtools::install_github("dcomtois/summarytools", ref="dev")`. 
+## News
+
+Version 0.6.9 [in development](https://github.com/dcomtois/summarytools/tree/dev) adds a new cross-tabulation function, `ctable()`.  Also, the variables are now correctly labelled when using with() and/or by(). It's a work-in-progress, and feedback is most welcome. To try it out, use `devtools::install_github("dcomtois/summarytools", ref="dev")`. 
 
 Version 0.6.5 is now on CRAN, fixing several issues present in version 0.6. See README file for more details. The new version includes a vignette which complements the introduction on this page. You can find the vignette here: http://rpubs.com/dcomtois/summarytools_vignette
+
+## What is summarytools?
 
 *summarytools* is an [R](http://r-project.org) package providing tools to _neatly and quickly summarize data_. Its main purpose is to provide hassle-free functions that every R programmer once wished were included in base R:
 
