@@ -3,13 +3,16 @@
 CRAN stats: [![](http://cranlogs.r-pkg.org/badges/summarytools)](http://cran.rstudio.com/web/packages/summarytools/index.html) [![](http://cranlogs.r-pkg.org/badges/grand-total/summarytools)](http://cran.rstudio.com/web/packages/summarytools/index.html)  
 Other stats: [![Research software impact](http://depsy.org/api/person/338759/badge.svg)](http://depsy.org/person/338759)
 
-## News
+## Latest News
 
-Version 0.6.5 is now on CRAN, fixing several issues present in version 0.6. See README file for more details. The new version includes a vignette which complements the introduction on this page. You can find the vignette here: http://rpubs.com/dcomtois/summarytools_vignette
-
-Version 0.6.9 [in development](https://github.com/dcomtois/summarytools/tree/dev) adds a new cross-tabulation function, `ctable()`.  Also, the variables are now correctly labelled when using with() and/or by(). It's a work-in-progress, and feedback is most welcome. To try it out, use `devtools::install_github("dcomtois/summarytools", ref="dev")`. 
-
-_Other features soon to come:_ ability to combine into a single html report the results of as many tables as wanted, including results nested in "by" objects.
+Version 0.6.9 (in development) introduces major improvements and I appeal to useRs to test it out before uploading to R-CRAN! The most important changes are:
+  - An added cross-tabulation function (`ctable()`) 
+  - Much improved support for `by()` and `with()` functions 
+  - Ordering of frequency tables by counts now possible  
+  - Appending content to existing html reports now possible 
+  - Many other minor improvements 
+  
+Please check [the development version's page](https://github.com/dcomtois/summarytools/tree/dev) to learn more and/or contribute by testing.
 
 ## What is summarytools?
 
@@ -20,6 +23,8 @@ _Other features soon to come:_ ability to combine into a single html report the 
 - **dataframe summaries** that facilitate data cleaning and firsthand evaluation
 
 It also aims at making R _a little easier_ to use for newcomers. With just a few lines of code, one can get a pretty good picture of the data at hand.
+
+For a vignette which complements this introduction, see http://rpubs.com/dcomtois/summarytools_vignette
 
 ### An example
 
