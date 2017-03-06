@@ -6,7 +6,7 @@ Other stats: [![Research software impact](http://depsy.org/api/person/338759/bad
 ## Latest News
 
 Version 0.6.9 (in development) introduces major improvements and I appeal to useRs to test it out before uploading to R-CRAN! The most important changes are:
-  - An added cross-tabulation function (`ctable()`) 
+  - An added cross-tabulation function 
   - Much improved support for `by()` and `with()` functions 
   - Ordering of frequency tables by counts now possible  
   - Appending content to existing html reports now possible 
